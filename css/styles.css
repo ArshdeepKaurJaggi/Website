@@ -1,4 +1,19 @@
 body{
-   padding: 50px 0px 0px 0px;
    z-index: 0;
+}
+.jumbotron{
+   background-image: url("../img/books.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+   background-color: #464646;
+   min-height: 600px;
+}
+.navbar-dark{
+   background-color: rgba(238, 54, 54, 0.8);
+}
+.nav-link{
+   font-weight: 100;
+   font-size: larger;
 }
