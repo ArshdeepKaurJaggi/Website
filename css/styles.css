@@ -1,3 +1,7 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
 body{
    z-index: 0;
 }
@@ -8,7 +12,7 @@ body{
    background-position: center center;
    background-attachment: fixed;
    background-color: #464646;
-   min-height: 600px;
+   min-height: 500px;
 }
 .navbar-dark{
    background-color: rgba(238, 54, 54, 0.8);
@@ -17,3 +21,53 @@ body{
    font-weight: 100;
    font-size: larger;
 }
+.heading{
+   font-size:8vw;font-family: Sofia;color:#F53F30;
+}
+.modal-header{
+   background-color: #ffa81c;
+   color: white;
+   font-family: Roboto;
+   font-weight: 100;
+}
+.modal-body{
+   background-color: #fff7eb;
+   font-family: Roboto;
+   font-weight: 100;
+}
+
+.row-content {
+   margin: 0px auto;
+   padding: 50px 0px;
+   border-bottom: 1px ridge;
+   min-height: 200px;
+}
+ .ml12 {
+   font-weight: 100;
+   font-size:8vw;
+   font-family: Sofia;
+   color:#F53F30;
+   text-transform: uppercase;
+   letter-spacing: 0.0em;
+ }
+ 
+ .ml12 .letter {
+   display: inline-block;
+   line-height: 1em;
+ }
+
+
+ .card{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin-bottom: 4vw ;
+   cursor: pointer;
+   border-radius: 10px 10px 10px 10px;
+   transition: box-shadow 0.5 ease-in;
+ }
+ .card:hover{
+    box-shadow: 0 4px 18px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .card img{
+    height: 200px;
+ }
+ 
