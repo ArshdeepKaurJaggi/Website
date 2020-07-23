@@ -3,16 +3,20 @@
    padding: 0px;
 }
 body{
+   padding: 50px 0px 0px 0px;
    z-index: 0;
 }
 .jumbotron{
-   background-image: url("../img/books.jpg");
+   /* background-image: url("../img/books.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
    background-attachment: fixed;
-   background-color: #464646;
-   min-height: 500px;
+   background-color: #464646; */
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center center;
+   background-color: #ffd5d4;
 }
 .navbar-dark{
    background-color: rgba(238, 54, 54, 0.8);
@@ -44,7 +48,6 @@ body{
 }
  .ml12 {
    font-weight: 100;
-   font-size:8vw;
    font-family: Sofia;
    color:#F53F30;
    text-transform: uppercase;
@@ -70,4 +73,22 @@ body{
  .card img{
     height: 200px;
  }
- 
+h1{
+   color:rgba(238, 54, 54);
+}
+h3{
+   font-family: 'Acme', sans-serif;
+   color:rgba(238, 54, 54);
+}
+.rounded-circle{
+   box-shadow: 2px 2px 5px 2px #000000;
+}
+p{
+   font-family: 'Neuton', serif;
+}
+
+.footer {
+   background-color: #ffbc8c;
+   margin: 0px auto;
+   padding: 20px 0px;
+ }

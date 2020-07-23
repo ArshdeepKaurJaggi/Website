@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
 
-   
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-    <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lato:100italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.google.com/specimen/Roboto' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Neuton:wght@300&display=swap" rel="stylesheet">
+
 
     <title>Document</title>
 </head>
@@ -28,7 +28,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto" href="#"><img src="img/education-logo.png" height="60" width="70"></a>
+            <a class="navbar-brand mr-auto" href="#"><img src="img/education-logo.png" height="40" width="40"></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
@@ -39,12 +39,12 @@
                     <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
                 </ul>
                 <span class="navbar-text">
-                    <a data-toggle="modal" id="loginbtn" type="button" class="btn btn-success">
+                    <a data-toggle="modal" id="loginbtn" type="button" class="btn btn-sm btn-success">
                         <span class="fa fa-user"> Login</span>
                     </a>
                 </span>
                 <span class="navbar-text ml-2">
-                    <a data-toggle="modal" id="signupbtn" type="button" class="btn btn-primary">
+                    <a data-toggle="modal" id="signupbtn" type="button" class="btn btn-sm btn-primary">
                         <span class="fa fa-sign-in"> Sign Up</span>
                     </a>
                 </span>
@@ -157,16 +157,73 @@
     <!--Modal Section Sign-up -->
     <!-- Header Section -->
     <header class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 align-self-center">
+                    <h1 class="display-md-3 pd-1 display-4">DAYAL PUBLIC SCHOOL</h1>
+                    <p class="lead">Dayal Public School is a place of teaching,
+                        where your children can feel comfortable while learning. As a parent, what more can you ask for?
+                    </p>
+                </div>
+                <div class="col-12 col-md-4  ">
+                    <!-- <a class="btn btn-warning btn-sm btn-block" href="#" role="button">get in touch</a> -->
+                    <img src="img/education-logo.png" class="img-fluid mx-auto  d-md-block d-none">
+                </div>
+            </div>
+        </div>
     </header>
     <!-- Header Section -->
     <!-- Body Section -->
     <div class="container ">
-        
         <div class="row row-content">
             <div class="col">
-                <h1 class="mt-2 text-center ml12" >School Name</h1>
+                <h1 class="mt-2 text-center ml12">Our Aim:</h1>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-            </div>    
+            </div>
+        </div>
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-12 col-md-12">
+                <div class="media mt-4 col-12">
+                    <img class=" img-thumbnail mr-3 align-self-center d-none d-sm-block" alt="education"
+                        src="img/books.jpg" width="204" height="186">
+                    <div class="media-body">
+                        <h3>EDUCATION</h3>
+                        <p>Education is not only about the past and present, but it is also the key to the
+                            future.
+                            It will help discipline our children for the intellectual challenges of the rest of
+                            the century.
+                            And it not only teaches our children facts but also teaches them how to think and
+                            learn on their own.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-12 col-md-12">
+                <div class="media mt-4 col-12">
+                    <img class=" img-thumbnail mr-3 align-self-center d-none d-sm-block" alt="education"
+                        src="img/culture.jpeg" width="204" height="186">
+                    <div class="media-body">
+                        <h3>CULTURE</h3>
+                        <p>Teaching diversity prepares students to be global citizens by exposing them to people
+                        from different cultures and social groups.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-12 col-md-12">
+                <div class="media mt-4 col-12">
+                    <img class=" img-thumbnail mr-3 align-self-center d-none d-sm-block" alt="education"
+                        src="img/discipline.jpg" width="204" height="186">
+                    <div class="media-body">
+                        <h3>DISCIPLINE</h3>
+                        <p>Students are the future assets of the nation. Discipline lays a good foundation of
+                            being selective,
+                            independent, punctual, focused, encouraged & organized in life.</p>
+                    </div>
+                </div>
+            </div>
         </div>
         
         <!-- *************************************************************************** -->
@@ -188,11 +245,62 @@
             </div>
         </div>
     </div>
+
     <!-- Body Section -->
+    <!-- Footer -->
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                        121, Clear Water Bay Road<br>
+                        Clear Water Bay, Kowloon<br>
+                        HONG KONG<br>
+                        <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+                        <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+                        <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">confusion@food.net</a>
+                    </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i
+                                class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i
+                                class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i
+                                class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i
+                                class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p>© Copyright Dayal Pyblic School</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    
+
     <script>
         $(document).ready(function () {
 
@@ -212,24 +320,24 @@
 
         var textWrapper = document.querySelector('.ml12');
         textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-        
-        anime.timeline({loop: true})
-          .add({
-            targets: '.ml12 .letter',
-            translateX: [40,0],
-            translateZ: 0,
-            opacity: [0,1],
-            easing: "easeOutExpo",
-            duration: 1200,
-            delay: (el, i) => 500 + 30 * i
-          }).add({
-            targets: '.ml12 .letter',
-            translateX: [0,-30],
-            opacity: [1,0],
-            easing: "easeInExpo",
-            duration: 1100,
-            delay: (el, i) => 100 + 30 * i
-          });
+
+        anime.timeline({ loop: true })
+            .add({
+                targets: '.ml12 .letter',
+                translateX: [40, 0],
+                translateZ: 0,
+                opacity: [0, 1],
+                easing: "easeOutExpo",
+                duration: 1200,
+                delay: (el, i) => 500 + 30 * i
+            }).add({
+                targets: '.ml12 .letter',
+                translateX: [0, -30],
+                opacity: [1, 0],
+                easing: "easeInExpo",
+                duration: 1100,
+                delay: (el, i) => 100 + 30 * i
+            });
     </script>
 </body>
 
