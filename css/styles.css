@@ -92,3 +92,41 @@ p{
    margin: 0px auto;
    padding: 20px 0px;
  }
+ .container-img{
+    background-image: url("../img/books.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+   background-color: #464646;
+   height: 300px;
+ }
+ blockquote{
+   border-left: 2px solid rgba(238, 54, 54);
+ }
+ .row-line{
+   margin: 0px auto;
+   padding: 50px 0px;
+   border-bottom: 1px ridge;
+ }
+ .container-fluid{
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center center;
+   background-color: rgb(238, 54, 54);
+   
+   margin: 20px auto;
+   color:whitesmoke
+ }
+ h5{
+    font-size: x-large;
+    font-family: 'Acme', sans-serif;
+ }
+ address {
+   font-size: 80%;
+   margin: 0px;
+   color: #0f0f0f;
+ }
+ ul li a{
+    color:  #000000;
+ }
