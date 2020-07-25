@@ -133,3 +133,10 @@ p{
  .display-5{
    font-family: 'Acme', sans-serif;
  }
+ .back-contact{
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center center;
+   background-color: rgb(238, 54, 54);
+   background-image: url("../img/education-background.jpg");
+ }
