@@ -20,6 +20,7 @@
 
     <title>Home</title>
 </head>
+
 <body>
     <!-- Nav Section -->
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
@@ -31,9 +32,6 @@
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Aboutus</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-                    <li class="nav-item "><a href="#" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Aboutus</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
                 </ul>
@@ -56,13 +54,14 @@
                     </p>
                 </div>
                 <!-- <div class="col-12 col-md-4  "> -->
-                    <!-- <a class="btn btn-warning btn-sm btn-block" href="#" role="button">get in touch</a>
+                <!-- <a class="btn btn-warning btn-sm btn-block" href="#" role="button">get in touch</a>
                     <img src="img/education-logo.png" class="img-fluid mx-auto  d-md-block d-none">
                 </div> -->
             </div>
             <div class="row">
                 <div class="col-12 col-md-12 align-self-center">
-                    <h1 class="display-md-3 pd-1 display-4 text-center">Let's get you started !!!  <i class="fa fa-book  text-success" aria-hidden="true"></i></h1>
+                    <h1 class="display-md-3 pd-1 display-4 text-center">Let's get you started !!! <i
+                            class="fa fa-book  text-success" aria-hidden="true"></i></h1>
                 </div>
             </div>
         </div>
@@ -70,47 +69,496 @@
     <!-- Breadcrumb -->
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item active" aria-current="page">Home</li>
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
         </ol>
     </nav>
     <!-- Main body -->
     <div class="container">
         <div class="row row-content">
-            <!-- Accordian -->
-            <div id="accordian">
-                <div class="card">
-                    <div class="card-header" id="class1">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link" data-toggle="collapse" data-target="#class1list" aria-expanded="true" aria-controls="collapseOne">
-                                Class 1
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="class1list" class="collapse show" aria-labelledby="class1" data-parent="#accordion">
-                        <div class="card-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            <div class="col">
+                <!-- Accordian -->
+                <div class="accordian">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="nurseryhead">
+                            <h3 class="mb-0">
+                                <a data-toggle="collapse" data-target="#nurserybody">
+                                    Nursery
+                                </a>
+                            </h3>
                         </div>
-                      </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="headingOne">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Collapsible Group Item #1
-                        </button>
-                      </h5>
-                    </div>
-                
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                      <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                      </div>
-                    </div>
-                  </div>
+                        <div class="collapse" id="nurserybody">
+                            <div class="card-body">
 
+                                <div class="col-12">
+                                    <div class="list-group" id="list-tab" role="tablist">
+                                        <a class="list-group-item list-group-item-action active"
+                                            id="list-timetableNur-list" data-toggle="list" href="#list-timetableNur"
+                                            role="tab" aria-controls="home">TIMETABLE</a>
+                                        <a class="list-group-item list-group-item-action" id="list-pdfsNur-list"
+                                            data-toggle="list" href="#list-pdfsNur" role="tab"
+                                            aria-controls="profile">PDF</a>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="list-timetableNur" role="tabpanel"
+                                            aria-labelledby="list-timetableNur-list">
+                                            <b>Area where Nursery time table pdf is to be displayed</b>
+                                        </div>
+                                        <div class="tab-pane fade" id="list-pdfsNur" role="tabpanel"
+                                            aria-labelledby="list-pdfsNUr-list">
+                                            <b>Area where nursery pdf is to be displayed</b>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="lkghead">
+                            <h3 class="mb-0">
+                                <a data-toggle="collapse" data-target="#lkgbody">
+                                    LKG
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="lkgbody">
+                            <div class="card-body">
+
+                                <div class="col-12">
+                                    <div class="list-group" id="list-tab" role="tablist">
+                                        <a class="list-group-item list-group-item-action active"
+                                            id="list-timetable-lkg-list" data-toggle="list" href="#list-timetable-lkg"
+                                            role="tab" aria-controls="home">TIMETABLE</a>
+                                        <a class="list-group-item list-group-item-action" id="list-pdfs-lkg-list"
+                                            data-toggle="list" href="#list-pdfs-lkg" role="tab"
+                                            aria-controls="profile">PDF</a>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="list-timetable1" role="tabpanel"
+                                            aria-labelledby="list-timetable-lkg -list">
+                                            <b>Area where LKG time table pdf is to be displayed</b>
+                                        </div>
+                                        <div class="tab-pane fade" id="list-pdfs-lkg" role="tabpanel"
+                                            aria-labelledby="list-pdfs1-list">
+                                            <b>Area where LKG pdf is to be displayed</b>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="ukghead">
+                            <h3 class="mb-0">
+                                <a data-toggle="collapse" data-target="#ukgbody">
+                                    UKG
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="ukgbody">
+                            <div class="card-body">
+
+                                <div class="col-12">
+                                    <div class="list-group" id="list-tab" role="tablist">
+                                        <a class="list-group-item list-group-item-action active"
+                                            id="list-timetable-ukg-list" data-toggle="list" href="#list-timetable-ukg"
+                                            role="tab" aria-controls="home">TIMETABLE</a>
+                                        <a class="list-group-item list-group-item-action" id="list-pdfs-ukg-list"
+                                            data-toggle="list" href="#list-pdfs-ukg" role="tab"
+                                            aria-controls="profile">PDF</a>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="list-timetable-ukg" role="tabpanel"
+                                            aria-labelledby="list-timetable-ukg-list">
+                                            <b>Area where UKG time table pdf is to be displayed</b>
+                                        </div>
+                                        <div class="tab-pane fade" id="list-pdfs-ukg" role="tabpanel"
+                                            aria-labelledby="list-pdfs-ukg-list">
+                                            <b>Area where UKG pdf is to be displayed</b>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="class1head">
+                            <h3 class="mb-0">
+                                <a data-toggle="collapse" data-target="#class1body">
+                                    Class 1
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="class1body">
+                            <div class="card-body">
+
+                                <div class="col-12">
+                                    <div class="list-group" id="list-tab" role="tablist">
+                                        <a class="list-group-item list-group-item-action active"
+                                            id="list-timetable1-list" data-toggle="list" href="#list-timetable1"
+                                            role="tab" aria-controls="home">TIMETABLE</a>
+                                        <a class="list-group-item list-group-item-action" id="list-pdfs1-list"
+                                            data-toggle="list" href="#list-pdfs1" role="tab"
+                                            aria-controls="profile">PDF</a>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="list-timetable1" role="tabpanel"
+                                            aria-labelledby="list-timetable1-list">
+                                            <b>Area where time table pdf is to be displayed</b>
+                                        </div>
+                                        <div class="tab-pane fade" id="list-pdfs1" role="tabpanel"
+                                            aria-labelledby="list-pdfs1-list">
+                                            <b>Area where pdf is to be displayed</b>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="class2head">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#class2body">
+                                    Class 2
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="class2body">
+                            <div class="card-body">
+
+                                <div class="col-12">
+                                    <div class="list-group" id="list-tab" role="tablist">
+                                        <a class="list-group-item list-group-item-action active"
+                                            id="list-timetable2-list" data-toggle="list" href="#list-timetable2"
+                                            role="tab" aria-controls="home">TIMETABLE</a>
+                                        <a class="list-group-item list-group-item-action" id="list-pdfs2-list"
+                                            data-toggle="list" href="#list-pdfs2" role="tab"
+                                            aria-controls="profile">PDF</a>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="list-timetable2" role="tabpanel"
+                                            aria-labelledby="list-timetable2-list">
+                                            <!-- PDF Placed here -->
+                                            <b>Area where time table of class 2 pdf is to be displayed</b>
+                                        </div>
+                                        <div class="tab-pane fade" id="list-pdfs2" role="tabpanel"
+                                            aria-labelledby="list-pdfs2-list">
+                                            <!-- PDF Placed here -->
+                                            <b>Area where class 2 pdf is to be displayed</b>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="class3head">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#class3body">
+                                    Class 3
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="class3body">
+                            <div class="card-body">
+                                <div class="col-12">
+                                    <div class="list-group" id="list-tab" role="tablist">
+                                        <a class="list-group-item list-group-item-action active"
+                                            id="list-timetable3-list" data-toggle="list" href="#list-timetable3"
+                                            role="tab" aria-controls="home">TIMETABLE</a>
+                                        <a class="list-group-item list-group-item-action" id="list-pdfs3-list"
+                                            data-toggle="list" href="#list-pdfs3" role="tab"
+                                            aria-controls="profile">PDF</a>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="list-timetable3" role="tabpanel"
+                                            aria-labelledby="list-timetable3-list">
+                                            <!-- PDF Placed here -->
+                                            <b>Area where time table of class 3 pdf is to be displayed</b>
+                                        </div>
+                                        <div class="tab-pane fade" id="list-pdfs3" role="tabpanel"
+                                            aria-labelledby="list-pdfs3-list">
+                                            <!-- PDF Placed here -->
+                                            <b>Area where class 3 pdf is to be displayed</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="class4head">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#class4body">
+                                    Class 4
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="class4body">
+                            <div class="card-body">
+
+                                <div class="col-12">
+                                    <div class="list-group" id="list-tab" role="tablist">
+                                        <a class="list-group-item list-group-item-action active"
+                                            id="list-timetable4-list" data-toggle="list" href="#list-timetable4"
+                                            role="tab" aria-controls="home">TIMETABLE</a>
+                                        <a class="list-group-item list-group-item-action" id="list-pdfs4-list"
+                                            data-toggle="list" href="#list-pdfs4" role="tab"
+                                            aria-controls="profile">PDF</a>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="list-timetable4" role="tabpanel"
+                                            aria-labelledby="list-timetable4-list">
+                                            <!-- PDF Placed here -->
+                                            <b>Area where time table of class 4 pdf is to be displayed</b>
+                                        </div>
+                                        <div class="tab-pane fade" id="list-pdfs4" role="tabpanel"
+                                            aria-labelledby="list-pdfs4-list">
+                                            <!-- PDF Placed here -->
+                                            <b>Area where class 4 pdf is to be displayed</b>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="class5head">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#class5body">
+                                    Class 5
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="class5body">
+                            <div class="card-body">
+
+                                <div class="col-12">
+                                    <div class="list-group" id="list-tab" role="tablist">
+                                        <a class="list-group-item list-group-item-action active"
+                                            id="list-timetable5-list" data-toggle="list" href="#list-timetable5"
+                                            role="tab" aria-controls="home">TIMETABLE</a>
+                                        <a class="list-group-item list-group-item-action" id="list-pdfs5-list"
+                                            data-toggle="list" href="#list-pdfs5" role="tab"
+                                            aria-controls="profile">PDF</a>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="list-timetable5" role="tabpanel"
+                                            aria-labelledby="list-timetable5-list">
+                                            <!-- PDF Placed here -->
+                                            <b>Area where time table of class 5 pdf is to be displayed</b>
+                                        </div>
+                                        <div class="tab-pane fade" id="list-pdfs5" role="tabpanel"
+                                            aria-labelledby="list-pdfs5-list">
+                                            <!-- PDF Placed here -->
+                                            <b>Area where class 5 pdf is to be displayed</b>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="class6head">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#class6body">
+                                    Class 6
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="class6body">
+                            <div class="card-body">
+
+                                <div class="col-12">
+                                    <div class="list-group" id="list-tab" role="tablist">
+                                        <a class="list-group-item list-group-item-action active"
+                                            id="list-timetable6-list" data-toggle="list" href="#list-timetable6"
+                                            role="tab" aria-controls="home">TIMETABLE</a>
+                                        <a class="list-group-item list-group-item-action" id="list-pdfs6-list"
+                                            data-toggle="list" href="#list-pdfs6" role="tab"
+                                            aria-controls="profile">PDF</a>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="list-timetable6" role="tabpanel"
+                                            aria-labelledby="list-timetable6-list">
+                                            <!-- PDF Placed here -->
+                                            <b>Area where time table of class 6 pdf is to be displayed</b>
+                                        </div>
+                                        <div class="tab-pane fade" id="list-pdfs6" role="tabpanel"
+                                            aria-labelledby="list-pdfs6-list">
+                                            <!-- PDF Placed here -->
+                                            <b>Area where class 6 pdf is to be displayed</b>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="class7head">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#class7body">
+                                    Class 7
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="class7body">
+                            <div class="card-body">
+
+                                <div class="col-12">
+                                    <div class="list-group" id="list-tab" role="tablist">
+                                        <a class="list-group-item list-group-item-action active"
+                                            id="list-timetable7-list" data-toggle="list" href="#list-timetable7"
+                                            role="tab" aria-controls="home">TIMETABLE</a>
+                                        <a class="list-group-item list-group-item-action" id="list-pdfs7-list"
+                                            data-toggle="list" href="#list-pdfs7" role="tab"
+                                            aria-controls="profile">PDF</a>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="list-timetable7" role="tabpanel"
+                                            aria-labelledby="list-timetable7-list">
+                                            <!-- PDF Placed here -->
+                                            <b>Area where time table of class 7 pdf is to be displayed</b>
+                                        </div>
+                                        <div class="tab-pane fade" id="list-pdfs7" role="tabpanel"
+                                            aria-labelledby="list-pdfs7-list">
+                                            <!-- PDF Placed here -->
+                                            <b>Area where class 7 pdf is to be displayed</b>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="class8head">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#class8body">
+                                    Class 8
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="class8body">
+                            <div class="card-body">
+
+                                <div class="col-12">
+                                    <div class="list-group" id="list-tab" role="tablist">
+                                        <a class="list-group-item list-group-item-action active"
+                                            id="list-timetable8-list" data-toggle="list" href="#list-timetable8"
+                                            role="tab" aria-controls="home">TIMETABLE</a>
+                                        <a class="list-group-item list-group-item-action" id="list-pdfs8-list"
+                                            data-toggle="list" href="#list-pdfs8" role="tab"
+                                            aria-controls="profile">PDF</a>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="list-timetable8" role="tabpanel"
+                                            aria-labelledby="list-timetable8-list">
+                                            <!-- PDF Placed here -->
+                                            <b>Area where time table of class 8 pdf is to be displayed</b>
+                                        </div>
+                                        <div class="tab-pane fade" id="list-pdfs8" role="tabpanel"
+                                            aria-labelledby="list-pdfs8-list">
+                                            <!-- PDF Placed here -->
+                                            <b>Area where class 8 pdf is to be displayed</b>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                        121, Clear Water Bay Road<br>
+                        Clear Water Bay, Kowloon<br>
+                        HONG KONG<br>
+                        <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+                        <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+                        <i class="fa fa-envelope fa-lg"></i>: <a
+                            href="mailto:dayalpublicschool@gmail.com">dayalpiblicschool@gmail.com</a>
+                    </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center mt-2">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i
+                                class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i
+                                class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i
+                                class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i
+                                class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p>© Copyright Dayal Pyblic School</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer -->
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
